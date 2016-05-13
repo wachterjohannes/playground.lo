@@ -20,6 +20,9 @@
 /web/js
 /web/uploads/media/*
 
+# example
+src/Example
+
 # IDEs
 .idea/*
 *.iml
