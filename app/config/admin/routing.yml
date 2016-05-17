@@ -99,3 +99,21 @@ client_website:
 sulu_search:
     resource: "@SuluSearchBundle/Resources/config/routing.yml"
     prefix: /admin/search
+
+# for blog bundle
+massive_blog:
+    resource: "@MassiveBlogBundle/Resources/config/routing.yml"
+    prefix: /admin/blog
+
+massive_blog_api:
+    resource: "@MassiveBlogBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api
+
+# for event bundle
+massive_event:
+    resource: "@MassiveEventBundle/Resources/config/routing.yml"
+    prefix: /admin/event
+
+massive_event_api:
+    resource: "@MassiveEventBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api
