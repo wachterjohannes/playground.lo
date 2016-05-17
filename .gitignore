@@ -45,3 +45,5 @@
 
 # Behat local file
 behat.yml
+
+/src/Example

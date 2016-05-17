@@ -79,3 +79,10 @@ liip_theme:
     active_theme: "default"
     load_controllers: false
     assetic_integration: true
+
+sulu_route:
+    mappings:
+        Massive\Bundle\BlogBundle\Entity\BlogTranslation:
+            route_schema: /{object.getTitle()}
+        Massive\Bundle\EventBundle\Entity\EventTranslation:
+            route_schema: /{object.getTitle()}
