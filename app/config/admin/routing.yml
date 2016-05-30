@@ -117,3 +117,9 @@ massive_event:
 massive_event_api:
     resource: "@MassiveEventBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
+
+# for news bundle
+example_news:
+    resource: "@ExampleNewsBundle/Resources/config/routing_api.xml"
+    type: rest
+    prefix: /admin/api
